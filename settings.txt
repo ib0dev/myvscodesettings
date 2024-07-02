@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "Cascadia Code",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "top",
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
