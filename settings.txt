@@ -1,122 +1,40 @@
-// Place your key bindings in this file to override the defaults
-[
-    {
-        "key": "ctrl+t",
-        "command": "-workbench.action.showAllSymbols"
+{
+    "editor.fontFamily": "Cascadia Code",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "top",
+    "workbench.iconTheme": "material-icon-theme",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-        "key": "ctrl+`",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "explorer.compactFolders": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.stickyScroll.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-        "key": "ctrl+`",
-        "command": "-workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
+    "workbench.startupEditor": "none",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 110,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-        "key": "ctrl+= ctrl+-",
-        "command": "workbench.action.focusSecondEditorGroup"
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-        "key": "ctrl+2",
-        "command": "-workbench.action.focusSecondEditorGroup"
+    "editor.tabSize": 5,
+    "window.zoomLevel": 1,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-        "key": "ctrl+2",
-        "command": "workbench.action.focusFirstEditorGroup"
+    "explorer.confirmDragAndDrop": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-        "key": "ctrl+1",
-        "command": "-workbench.action.focusFirstEditorGroup"
-    },
-    {
-        "key": "ctrl+1",
-        "command": "workbench.explorer.fileView.focus"
-    },
-    {
-        "key": "ctrl+8 -",
-        "command": "workbench.action.files.newUntitledFile"
-    },
-    {
-        "key": "ctrl+n",
-        "command": "explorer.newFile",
-        "when": "explorerViewletFocus && !inputFocus"
-    },
-    {
-        "key": "ctrl+n",
-        "command": "workbench.action.files.newUntitledFile",
-        "when": "!explorerViewletFocus"
-    },
-    {
-        "key": "ctrl+m",
-        "command": "explorer.newFolder",
-        "when": "explorerViewletFocus && !inputFocus"
-    },
-    {
-        "key": "ctrl+delete ctrl+end",
-        "command": "search.action.restrictSearchToFolder",
-        "when": "folderMatchWithResourceFocus && searchViewletVisible"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "-search.action.restrictSearchToFolder",
-        "when": "folderMatchWithResourceFocus && searchViewletVisible"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "-filesExplorer.findInFolder",
-        "when": "explorerResourceIsFolder && filesExplorerFocus && foldersViewVisible && !inputFocus"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "-editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "key": "ctrl+shift+down",
-        "command": "-editor.action.insertCursorBelow",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+up",
-        "command": "-editor.action.insertCursorAbove",
-        "when": "textInputFocus"
-    },
-    // Set the keybindings for column select down and up
-    {
-        "key": "ctrl+shift+down",
-        "command": "cursorDownSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+up",
-        "command": "cursorUpSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "-editor.action.insertCursorBelow",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "-notebook.cell.copyDown",
-        "when": "notebookEditorFocused && !inputFocus"
-    },
-    {
-        "key": "shift+alt+down",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    }
-]
+    "workbench.statusBar.visible": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "breadcrumbs.enabled": false
+}
