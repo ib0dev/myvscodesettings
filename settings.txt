@@ -25,7 +25,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.tabSize": 5,
-    "window.zoomLevel": 1,
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -36,5 +35,7 @@
     "workbench.statusBar.visible": false,
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 1
 }
