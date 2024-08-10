@@ -1,41 +1,54 @@
 {
-    "editor.fontFamily": "Cascadia Code",
-    "editor.minimap.enabled": false,
-    "workbench.activityBar.location": "top",
-    "workbench.iconTheme": "material-icon-theme",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.smoothScrolling": true,
-    "workbench.list.smoothScrolling": true,
-    "terminal.integrated.smoothScrolling": true,
-    "explorer.compactFolders": false,
-    "editor.stickyScroll.scrollWithEditor": false,
-    "editor.stickyScroll.enabled": false,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.startupEditor": "none",
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 110,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.tabSize": 5,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.statusBar.visible": false,
-    "window.commandCenter": false,
-    "workbench.layoutControl.enabled": false,
-    "breadcrumbs.enabled": false,
-    "workbench.activityBar.visible": false,
-    "window.zoomLevel": 1
+  "editor.fontFamily": "Cascadia Code",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "explorer.compactFolders": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 110,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 5,
+  "window.zoomLevel": 1,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "breadcrumbs.enabled": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.glyphMargin": false,
+  "git.confirmSync": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.statusBar.visible": false,
+  "window.customTitleBarVisibility": "auto",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+"editor.fontLigatures": true,
+  "editor.snippets.codeActions.enabled": false,
+  "editor.codeActionsOnSave": false,
+  "editor.lightbulb.enabled": "off",
+  "workbench.colorTheme": "Monokai Pro",
+  "files.autoSaveDelay": 0
 }
