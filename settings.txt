@@ -2,7 +2,7 @@
   "editor.fontFamily": "Cascadia Code",
   "editor.minimap.enabled": false,
   "workbench.activityBar.location": "hidden",
-  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -35,7 +35,6 @@
   },
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "breadcrumbs.enabled": false,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -43,12 +42,16 @@
   "git.confirmSync": false,
   "window.menuBarVisibility": "toggle",
   "workbench.statusBar.visible": false,
-  "window.customTitleBarVisibility": "auto",
+  "window.customTitleBarVisibility": "never",
   "javascript.updateImportsOnFileMove.enabled": "always",
 "editor.fontLigatures": true,
   "editor.snippets.codeActions.enabled": false,
   "editor.codeActionsOnSave": false,
   "editor.lightbulb.enabled": "off",
-  "workbench.colorTheme": "Monokai Pro",
-  "files.autoSaveDelay": 0
+  "files.autoSaveDelay": 0,
+  "window.titleBarStyle": "native",
+  "editor.guides.indentation": false,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.editor.showTabs": "none",
+  "workbench.editor.editorActionsLocation": "titleBar"
 }
