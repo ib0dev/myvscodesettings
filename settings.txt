@@ -2,7 +2,7 @@
   "editor.fontFamily": "Cascadia Code",
   "editor.minimap.enabled": false,
   "workbench.activityBar.location": "hidden",
-  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.iconTheme": "material-icon-theme",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -42,16 +42,44 @@
   "git.confirmSync": false,
   "window.menuBarVisibility": "toggle",
   "workbench.statusBar.visible": false,
-  "window.customTitleBarVisibility": "never",
+
+  // Automatically update imports on file move (JS + TS)
   "javascript.updateImportsOnFileMove.enabled": "always",
-"editor.fontLigatures": true,
-  "editor.snippets.codeActions.enabled": false,
-  "editor.codeActionsOnSave": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Enable font ligatures
+  "editor.fontLigatures": false,
+
+  // Automatically organize imports on save
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  // Turn off code action lightbulbs
   "editor.lightbulb.enabled": "off",
+
+  // The rest of your existing settings
+  "editor.snippets.codeActions.enabled": false,
   "files.autoSaveDelay": 0,
   "window.titleBarStyle": "native",
   "editor.guides.indentation": false,
-  "workbench.colorTheme": "Default Dark+",
-  "workbench.editor.showTabs": "none",
-  "workbench.editor.editorActionsLocation": "titleBar"
+  "breadcrumbs.enabled": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwind-fold.autoFold": false,
+  "vscode_custom_css.imports": [],
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file:///c:/Users/Ibrahim/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  ],
+  "animations.Enabled": true,
+  "workbench.reduceMotion": "on",
+  "animations.Durations": {
+    "Command-Palette": 300,
+    "Tabs": 200
+  },
+  "chat.commandCenter.enabled": false,
+  "window.customTitleBarVisibility": "never",
+  "workbench.colorTheme": "Gruvbox Dark Medium"
 }
